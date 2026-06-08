@@ -1,0 +1,35 @@
+{
+    "name": "FunkPunks #9466",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/9466.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Woman"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Fair"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "3"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Purple Makeup"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Bright Lipstick"
+        },
+        {
+            "trait_type": "item_3",
+            "value": "Free Hair"
+        }
+    ]
+}

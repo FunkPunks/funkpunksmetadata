@@ -1,0 +1,31 @@
+{
+    "name": "FunkPunks #9367",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/9367.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Woman"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "2"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Smooth Hair"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Blue Clown Eyes"
+        }
+    ]
+}

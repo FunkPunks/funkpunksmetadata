@@ -1,0 +1,27 @@
+{
+    "name": "FunkPunks #2013",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/2013.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Woman"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Pale"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "1"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Dark Spike Cut"
+        }
+    ]
+}

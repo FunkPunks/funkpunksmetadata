@@ -1,0 +1,39 @@
+{
+    "name": "FunkPunks #8702",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/8702.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Woman"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "4"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Beauty Mark"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Violet Lipstick"
+        },
+        {
+            "trait_type": "item_3",
+            "value": "Ear Ring"
+        },
+        {
+            "trait_type": "item_4",
+            "value": "Dark Spike Cut"
+        }
+    ]
+}

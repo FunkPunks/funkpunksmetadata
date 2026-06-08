@@ -1,0 +1,39 @@
+{
+    "name": "FunkPunks #9093",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/9093.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Man"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Fair"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "4"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Jaw Beard"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Dress Hat"
+        },
+        {
+            "trait_type": "item_3",
+            "value": "Ear Ring"
+        },
+        {
+            "trait_type": "item_4",
+            "value": "Patch Eye"
+        }
+    ]
+}

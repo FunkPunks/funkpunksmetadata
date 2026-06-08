@@ -1,0 +1,31 @@
+{
+    "name": "FunkPunks #5312",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/5312.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Undead"
+        },
+        {
+            "trait_type": "style",
+            "value": "Man"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Plain"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "2"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Rich Beard"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Wool Cap"
+        }
+    ]
+}

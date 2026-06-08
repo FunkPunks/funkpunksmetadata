@@ -1,0 +1,23 @@
+{
+    "name": "FunkPunks #510",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/510.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Man"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "0"
+        }
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "name": "FunkPunks #9008",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/9008.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Man"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "4"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Sad Face"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Thin Spike Cut"
+        },
+        {
+            "trait_type": "item_3",
+            "value": "Goatee"
+        },
+        {
+            "trait_type": "item_4",
+            "value": "Standard Shades"
+        }
+    ]
+}

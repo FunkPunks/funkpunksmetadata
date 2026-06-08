@@ -1,0 +1,43 @@
+{
+    "name": "FunkPunks #9819",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/9819.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Man"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Deep"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "5"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Rich Beard"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Golden Chain"
+        },
+        {
+            "trait_type": "item_3",
+            "value": "Head Band"
+        },
+        {
+            "trait_type": "item_4",
+            "value": "Patch Eye"
+        },
+        {
+            "trait_type": "item_5",
+            "value": "Beauty Mark"
+        }
+    ]
+}

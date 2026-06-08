@@ -1,0 +1,47 @@
+{
+    "name": "FunkPunks #755",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/755.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Woman"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Pale"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "6"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Beauty Mark"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Dark Lipstick"
+        },
+        {
+            "trait_type": "item_3",
+            "value": "Green Clown Eyes"
+        },
+        {
+            "trait_type": "item_4",
+            "value": "Ear Ring"
+        },
+        {
+            "trait_type": "item_5",
+            "value": "Golden Bob"
+        },
+        {
+            "trait_type": "item_6",
+            "value": "Smoke Stick"
+        }
+    ]
+}

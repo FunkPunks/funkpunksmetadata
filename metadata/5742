@@ -1,0 +1,27 @@
+{
+    "name": "FunkPunks #5742",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/5742.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Undead"
+        },
+        {
+            "trait_type": "style",
+            "value": "Man"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Plain"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "1"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Dark Spike Cut"
+        }
+    ]
+}

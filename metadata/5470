@@ -1,0 +1,31 @@
+{
+    "name": "FunkPunks #5470",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/5470.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Man"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Deep"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "2"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Smoke Stick"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Free Hair"
+        }
+    ]
+}

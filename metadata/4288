@@ -1,0 +1,31 @@
+{
+    "name": "FunkPunks #4288",
+    "description": "FunkPunks NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/4288.png",
+    "attributes": [
+        {
+            "trait_type": "character_type",
+            "value": "Person"
+        },
+        {
+            "trait_type": "style",
+            "value": "Woman"
+        },
+        {
+            "trait_type": "complexion",
+            "value": "Tan"
+        },
+        {
+            "trait_type": "trait_count",
+            "value": "2"
+        },
+        {
+            "trait_type": "item_1",
+            "value": "Wild White Hair"
+        },
+        {
+            "trait_type": "item_2",
+            "value": "Pink Cheeks"
+        }
+    ]
+}
