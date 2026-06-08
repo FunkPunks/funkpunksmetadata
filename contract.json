@@ -1,0 +1,8 @@
+{
+    "name": "FunkPunks",
+    "description": "FunkPunks Official NFT Collection.",
+    "image": "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/0.png",
+    "external_link": "https://github.com/FunkPunks",
+    "seller_fee_basis_points": 500,
+    "fee_recipient": "0x467bA5241A37302616173d08E6dbD0aCaA5FcE06"
+}
