@@ -1,0 +1,83 @@
+name: Generate NFT Metadata
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-metadata:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Create Metadata Directory
+      run: mkdir -p metadata
+
+    - name: Run Metadata Generator Script
+      shell: python
+      run: |
+        import os
+        import csv
+        import json
+
+        csv_file = 'funkpunks.csv'
+        output_dir = 'metadata'
+        
+        # Base URI for images hosted on your other repository
+        image_base_uri = "https://raw.githubusercontent.com/FunkPunks/funkpunksimages/main/images/"
+
+        if not os.path.exists(csv_file):
+            print(f"Error: {csv_file} not found!")
+            exit(1)
+
+        with open(csv_file, mode='r', encoding='utf-8') as file:
+            # Detect headers automatically
+            reader = csv.DictReader(file)
+            headers = reader.fieldnames
+            print(f"Detected CSV Headers: {headers}")
+
+            # Standardizing tokenId or row index starting from 0
+            for index, row in enumerate(reader):
+                token_id = str(index)
+                
+                # Dynamic metadata schema construction
+                nft_metadata = {
+                    "name": f"FunkPunks #{token_id}",
+                    "description": "FunkPunks NFT Collection.",
+                    "image": f"{image_base_uri}{token_id}.png",
+                    "attributes": []
+                }
+
+                # Dynamically append traits ignoring standard name/id rows if present
+                for header in headers:
+                    if header.lower() not in ['id', 'tokenid', 'name', 'description', 'image']:
+                        value = row.get(header)
+                        if value:
+                            nft_metadata["attributes"].append({
+                                "trait_type": header,
+                                "value": value
+                            })
+
+                # Write file WITHOUT any extension (0, 1, 2 format)
+                file_path = os.path.join(output_dir, token_id)
+                with open(file_path, 'w', encoding='utf-8') as out_file:
+                    json.dump(nft_metadata, out_file, indent=4)
+
+        print("Metadata generation completed successfully.")
+
+    - name: Commit and Push Metadata
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add metadata/
+        git diff-index --quiet HEAD || git commit -m "Automated metadata generation: Extensionless serial structure"
+        git push origin main
